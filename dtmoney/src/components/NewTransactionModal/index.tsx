@@ -2,7 +2,7 @@ import Modal from 'react-modal';
 import { Container } from './styles'
 import closeImg from '../../assets/close.png'
 
-//commit test
+//new test
 interface NewTransactionModalProps{
     isOpen: boolean;
     onRequestClose: () => void;
