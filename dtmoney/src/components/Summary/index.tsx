@@ -1,12 +1,13 @@
-import { useContext } from 'react'
 import incomeImg from '../../assets/income.png'
 import outcomeImg from '../../assets/outcome.png'
 import totalImg from '../../assets/total.png'
+
+import { useTransactions } from '../../hooks/useTransactions'
+
 import {Container} from "./styles"
-import { TransactionsContext } from '../../TransactionsContext'
 
 export function Summary(){
-    const {transactions} = useContext(TransactionsContext);
+    const {transactions} = useTransactions();
     console.log("Sumary");
     console.log(transactions);
 
