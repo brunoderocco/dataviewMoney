@@ -1,4 +1,4 @@
 # dataviewMoney
 
 
-Starting a test RactJS/TypeScript project.
+Starting a test ReactJS/TypeScript project.
